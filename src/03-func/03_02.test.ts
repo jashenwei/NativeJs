@@ -92,7 +92,7 @@ test('Staff should be reduced', () => {
 });
 
 // 05. Создайте в том же файле еще одну функцию, чтобы тесты прошли
-test.skip('Staff should be increased', () => {
+test('Staff should be increased', () => {
     toHireStaff(city.governmentBuildings[0], 20);
 
     expect(city.governmentBuildings[0].staffCount).toBe(220);

@@ -9,7 +9,7 @@ beforeEach( ()=> {
     c = 3;
 })
 
-test.skip('sum should be correct', ()=>{
+test('sum should be correct', ()=>{
 
 
     const result1 = sum(a, b);
@@ -19,7 +19,7 @@ test.skip('sum should be correct', ()=>{
     expect(result2).toBe(5);
 })
 
-test.skip('multiply should be correct', ()=>{
+test('multiply should be correct', ()=>{
     const result1 = mult(a, b);
     const result2 = mult(b, c);
 
